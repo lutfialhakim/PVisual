@@ -1,4 +1,4 @@
-# 🕌 Aplikasi Visual Waktu Sholat
+# 🕌 Aplikasi Visual Waktu Sholat Dekstop
 
 Aplikasi ini menampilkan waktu sholat harian berdasarkan lokasi pengguna. Menggunakan metode hisab (Muslim World League) untuk menghitung waktu sholat secara otomatis.
 
@@ -10,5 +10,6 @@ Aplikasi ini menampilkan waktu sholat harian berdasarkan lokasi pengguna. Menggu
 ## Alur Aplikasi
 Data Flow:
 - User buka app → App ambil GPS / lokasi manual
-- App kirim request ke API:
-- API hitung atau ambil dari database dan kirim hasil
+- Ambil database Ephimeris
+- menghitung, meyimpan di database
+- Menampilkan pada aplikasi
